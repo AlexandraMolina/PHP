@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+/* Get rid of all default margins/paddings. Set typeface */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: "lato", sans-serif;
+}
+
+.group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  form {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+  }
+  
+  h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-family: "Poppins", "serif";
+
+
+  }
+
+  input{
+    position: relative;
+    height: 50px;
+    width: 90%;
+    margin-bottom: 40px;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+  }
+  ::placeholder {
+    color: transparent;
+  }
+
+span{
+    position: relative;
+    padding: 0 4px;
+    background-color: white;
+    color: #7d828da1;
+    font-size: 16px;
+    transition: 0.6s;
+    z-index: 0;
+}
+
+.form-btn {
+    display: block;
+    margin-left: 25px;
+    padding: 15px 30px;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  
+  .form-btn:hover {
+    background-color: #9867C5;
+    transform: translateY(-2px);
+  }
+
+          
+  #user-info {
+    margin: 20px auto;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#home-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
